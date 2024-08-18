@@ -1,35 +1,36 @@
-# todo-app
-This is a simple demo/showcase built and learnt from geeksforgeeks.org of a todo app. This to-do list can add new tasks we can also delete the tasks by clicking on them.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-**Prerequisites:**
-- Introduction To Next.js
-- Next.js Components
-- React useState
-- Javascript Map
-- NPM and NPX
+## Getting Started
 
-![image](https://github.com/user-attachments/assets/1554f881-d4c3-4e55-b9f4-3ddf9a473cbd)
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-# Steps to create the NextJS Application
-**Step 1:** Create a new Next.js project using the following command
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-NPX: It is a package runner tool that comes with npm 5.2+, npx is easy to use CLI tool. The npx is used for executing Node packages.
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-```npx create-next-app todo-app```
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-**Step 2:** Change to the project directory:
+## Learn More
 
-```cd todo-app```
+To learn more about Next.js, take a look at the following resources:
 
-# Approach
-- The functions update­Input, addItem, delete­Item, and editItem are­ responsible for managing the state­ based on user actions. Specifically, the­ updateInput function updates the use­rInput state wheneve­r the user types in the­ input field. On the other hand, the­ addItem function adds a new ToDo item to the­ list state if there’s conte­nt in the input field. If the use­r clicks on the “Delete­” button, it triggers the dele­teItem function which remove­s a ToDo item from the list state. Lastly, by utilizing a prompt display, the­ editItem function enable­s users to modify existing ToDo items.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-To run the next.js application use the following command and then go to this URL http://localhost:3000
+## Deploy on Vercel
 
-```npm run dev```
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-![image](https://github.com/user-attachments/assets/d31e0953-4b0c-4046-b599-5d777db80ea1)
-
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
